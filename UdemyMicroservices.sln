@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F99C525E-70DD-4EC3-9FB0-C0F75A57103A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{2A5CBDA1-77D5-40DE-A6DD-FDD724347209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.Catalog", "Services\Catalog\FreeCoursesServices.Catalog\FreeCourse.Services.Catalog.csproj", "{2B82A870-61CE-4852-BF47-9F3F294E947D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D5531457-5D6F-44EB-AB16-938233559DC7}"
+	ProjectSection(SolutionItems) = preProject
+		Ports.txt = Ports.txt
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{98FDA5BF-40EC-4A5D-8873-326493FA4841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Shared", "Shared\FreeCourse.Shared\FreeCourse.Shared.csproj", "{BDB0047D-2405-4539-A160-769A3B31925E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B82A870-61CE-4852-BF47-9F3F294E947D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B82A870-61CE-4852-BF47-9F3F294E947D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B82A870-61CE-4852-BF47-9F3F294E947D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B82A870-61CE-4852-BF47-9F3F294E947D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB0047D-2405-4539-A160-769A3B31925E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB0047D-2405-4539-A160-769A3B31925E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB0047D-2405-4539-A160-769A3B31925E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB0047D-2405-4539-A160-769A3B31925E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2D58541-6406-4BA4-8E7E-F83CD997CE87}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A5CBDA1-77D5-40DE-A6DD-FDD724347209} = {F99C525E-70DD-4EC3-9FB0-C0F75A57103A}
+		{2B82A870-61CE-4852-BF47-9F3F294E947D} = {2A5CBDA1-77D5-40DE-A6DD-FDD724347209}
+		{BDB0047D-2405-4539-A160-769A3B31925E} = {98FDA5BF-40EC-4A5D-8873-326493FA4841}
+	EndGlobalSection
+EndGlobal
